@@ -1,0 +1,162 @@
+
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-category-acao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/acao",
+            "noFollow": true,
+            "tagTitle": "Acao",
+            "text": "Acao"
+          }
+        },
+        {
+          "id": "menu-item-category-aventura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/aventura",
+            "noFollow": true,
+            "tagTitle": "Aventura",
+            "text": "Aventura"
+          }
+        },
+        {
+          "id": "menu-item-category-rpg",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "151",
+            "type": "internal",
+            "href": "/rpg",
+            "noFollow": true,
+            "tagTitle": "RPG",
+            "text": "RPG"
+          }
+        },
+        {
+          "id": "menu-item-category-estrategia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 152,
+            "type": "internal",
+            "href": "/estrategia",
+            "noFollow": true,
+            "tagTitle": "Estrategia",
+            "text": "Estratégia"
+          }
+        },
+        {
+          "id": "menu-item-category-simulacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 152,
+            "type": "internal",
+            "href": "/simulacao",
+            "noFollow": true,
+            "tagTitle": "Simulacao",
+            "text": "Simulacao"
+          }
+        }
+      ]
+    }
+  },
+  
+  "menu-item#category-acao": {
+    "props": {
+      "id": "menu-item-category-acao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 153,
+        "type": "internal",
+        "href": "/acao",
+        "noFollow": true,
+        "tagTitle": "Acao",
+        "text": "Acao"
+      }
+    }
+  },
+  "menu-item#category-aventura": {
+    "props": {
+      "id": "menu-item-category-aventura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 153,
+        "type": "internal",
+        "href": "/aventura",
+        "noFollow": true,
+        "tagTitle": "Aventura",
+        "text": "Aventura"
+      }
+    }
+  },
+  "menu-item#category-rpg": {
+    "props": {
+      "id": "menu-item-category-rpg",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 153,
+        "type": "internal",
+        "href": "/rpg",
+        "noFollow": true,
+        "tagTitle": "RPG",
+        "text": "RPG"
+      }
+    }
+  },
+
+  "menu-item#category-estrategia": {
+    "props": {
+      "id": "menu-item-category-estrategia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "151",
+        "type": "internal",
+        "href": "/estrategia",
+        "noFollow": true,
+        "tagTitle": "Estrategia",
+        "text": "Estratégia"
+      }
+    }
+  },
+  "menu-item#category-simulacao": {
+    "props": {
+      "id": "menu-item-category-simulacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 152,
+        "type": "internal",
+        "href": "/simulacao",
+        "noFollow": true,
+        "tagTitle": "Simulacao",
+        "text": "Simulacao"
+      }
+    
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "store.custom#acao": {
+    "path": "/acao"
+  },
+  "store.custom#estrategia": {
+    "path": "/estrategia"
+  },
+  "store.custom#rpg": {
+    "path": "/rpg"
+  },
+  "store.custom#simulacao": {
+    "path": "/simulacao"
+  },
+  "store.custom#aventura": {
+    "path": "/aventura"
+  },
+ 
+"store.custom#landing": {
+  "path": "/landing"
+}
+}

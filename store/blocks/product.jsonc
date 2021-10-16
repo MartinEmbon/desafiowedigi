@@ -1,7 +1,320 @@
+// store/blocks/product.jsonc
 {
   "store.product": {
+    "children": [      
+      //"breadcrumb",
+    
+      "condition-layout.product",
+      "condition-layout.product#case",
+      //"image#always",
+      "flex-layout.row#main",
+      "slider-layout#home",
+      "flex-layout.row#about-us",
+      "shelf#en-alta"
+    ]
+  },
+  
+  "condition-layout.product": {
+    "children": [
+     "condition.product#game"  
+    ]
+  },
+  "condition.product#game": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "verb": "is",
+          "object": "18"
+        }             
+   ],
+   "Else": "condition-layout.product#case"
+ },
+    "children": ["image#game"]
+  },
+    
+    "image#game": {
+         "props": {
+           "src": "https://adrenaline.com.br/uploads/chamadas/hitman-3-sucesso-vendas-0.jpg",
+           "width": "100%",
+           //"height": "200px",
+           "blockClass": "game"
+         }
+       },
+
+
+  "condition-layout.product#case": {
+    "children": [
+      "condition.product#case"
+    ]    
+  },
+  
+  "condition.product#case": {
+      "props": {
+        "conditions": [
+          {
+            "subject": "productId",
+            "verb": "is-not",
+            "object": "18"
+          }             
+     ]
+     
+     //"Else": "condition-layout.product#case"
+   },
+ "children": ["image#game1"]
+},
+"image#game1": {
+  "props": {
+    "src": "https://cdn.ome.lt/WTDue09utTpLlCw1roTw8OCVWQI=/1200x630/smart/extras/conteudos/rise_of_the_tomb_raider.jpg",
+    "width": "100%",
+    //"height": "200px",
+    "blockClass": "game"
+  }
+},
+
+  "flex-layout.row#about-us": {
+    "children": ["flex-layout.col#text-descricao", "flex-layout.col#text-detalhes"],
+    "props":{
+      "blockClass":"fila"
+      
+    }
+  },
+
+  "flex-layout.col#text-descricao": {
+    "children": ["rich-text#descricao-title", "rich-text#descricao-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#text-detalhes": {
+    "children": ["rich-text#detalhes-title", "rich-text#detalhes-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#descricao-title": {
+    "props": {
+      "text": "# Descricao",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoProd"
+    }
+  },
+
+  "rich-text#descricao-content": {
+    "props": {
+      "text": " This is the _VTEX Minimum Theme_ \n You can use it to test blocks usage and build your first store from scratch. \nThis is the _VTEX Minimum Theme_ \n You can use it to test blocks usage and build your first store from scratch.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoConteudo"
+    }
+  },
+
+  "rich-text#detalhes-title": {
+    "props": {
+      "text": "# Detalhes",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"detalhesProd"
+    }
+  },
+
+  "rich-text#detalhes-content": {
+    "props": {
+      "text": "Plataforma: PS4, PS5\nLancamento: 07/05/2021\nDesenvolvedor:Capcom U.S.A.,Inc\nGénero, Acao, Terror\nVoz:Espanhol, Inglés,Portuges\nIdiomas da Tela:Alemao, Espanhol",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoDetalhes"
+    }
+  },
+  
+  "flex-layout.row#main": {
+    
+    "children": ["flex-layout.col#right"]
+  },
+  // "flex-layout.col#left": {
+  //   "children": ["product-images"]
+    
+    
+  // },
+  
+  "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "right",
+      "blockClass":"appCompra"
+    },
+    "children": [
+      "product-name",   
+      "product-price", 
+      "shipping-simulator",
+      "buy-button",
+      "flex-layout.row#qty-sku"]
+  },
+  "flex-layout.row#qty-sku":{
     "children": [
       
+      "product-quantity"
     ]
+  },  
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
   }
 }
+
+
+/*
+// store/blocks/product.jsonc
+{
+  "store.product": {
+    "children": [      
+      //"breadcrumb",
+      "condition-layout.product",
+      "flex-layout.row#main",
+      "slider-layout#home",
+      "flex-layout.row#about-us",
+      "shelf#en-alta"
+      
+    ]
+  },
+  "condition-layout.product": {
+       "children": [
+        "condition.product#game",
+        "condition.product#game1"
+       ]
+     },
+     "condition.product#game1": {
+         "props": {
+           "conditions": [
+             {
+               "subject": "productId",
+               "verb": "is",
+               "object": "24"
+             }             
+        ],
+        
+        "Else": "condition.product#game"
+      },
+    "children": ["image#game"]},
+     "condition.product#game": {
+         "props": {
+           "conditions": [
+             {
+               "subject": "productId",
+               "verb": "is",
+               "object": "18"
+             }             
+        ]
+      },
+         "children": ["image#game"]},
+         
+         "image#game": {
+              "props": {
+                "src": "https://cdn.mos.cms.futurecdn.net/kEUhbPv97sQP4Y9Pnt4is6.jpg",
+                "width": "100%",
+                //"height": "200px",
+                "blockClass": "game"
+              }
+            },
+  
+    "flex-layout.row#about-us": {
+    "children": ["flex-layout.col#text-descricao", "flex-layout.col#text-detalhes"],
+    "props":{
+      "blockClass":"fila"
+      
+    }
+  },
+
+  "flex-layout.col#text-descricao": {
+    "children": ["rich-text#descricao-title", "rich-text#descricao-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#text-detalhes": {
+    "children": ["rich-text#detalhes-title", "rich-text#detalhes-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#descricao-title": {
+    "props": {
+      "text": "# Descricao",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoProd"
+    }
+  },
+
+  "rich-text#descricao-content": {
+    "props": {
+      "text": " This is the _VTEX Minimum Theme_ \n You can use it to test blocks usage and build your first store from scratch. \nThis is the _VTEX Minimum Theme_ \n You can use it to test blocks usage and build your first store from scratch.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoConteudo"
+    }
+  },
+
+  "rich-text#detalhes-title": {
+    "props": {
+      "text": "# Detalhes",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"detalhesProd"
+    }
+  },
+
+  "rich-text#detalhes-content": {
+    "props": {
+      "text": "Plataforma: PS4, PS5\nLancamento: 07/05/2021\nDesenvolvedor:Capcom U.S.A.,Inc\nGénero, Acao, Terror\nVoz:Espanhol, Inglés,Portuges\nIdiomas da Tela:Alemao, Espanhol",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass":"descricaoDetalhes"
+    }
+  },
+  
+  "flex-layout.row#main": {
+    "props": {
+      "paddingTop": 2
+    },
+    "children": [ "flex-layout.col#right"]
+  },
+  // "flex-layout.col#left": {
+  //   "children": ["product-images"]
+  // },
+  
+  "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"right",
+      "verticalAlign": "middle",
+      "blockClass":"todaCol",
+      "fullWidth":false
+      
+    },
+    "children": [
+      "product-name", 
+      
+      "product-price", 
+      "shipping-simulator",
+      "buy-button",
+      "flex-layout.row#qty-sku"]
+  },
+  "flex-layout.row#qty-sku":{
+    "children": [
+      
+      "product-quantity"
+    ]
+  },  
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  }
+}*/

@@ -1,0 +1,10 @@
+.imageNormal{
+    width:190px;
+    height:200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.productBrand{
+    color:white;
+}

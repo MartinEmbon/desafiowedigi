@@ -1,0 +1,53 @@
+
+.flexRowContent--fila{
+    padding-left:3rem;        
+    /* gap:2rem; */
+    
+}
+
+.flexColChild--filtro{ 
+    width:50%;    
+}
+.flexCol--filtro{
+    width:50%;    
+}
+
+.stretchChildrenWidth{
+    width:100%;    
+}
+
+
+.flexCol--appCompra{
+    position:absolute;
+    right:1rem;
+    top:0px;
+    box-sizing: border-box;
+    justify-content: center;
+    width:40%;
+}
+
+
+.flexCol--orden{
+    height:30px;
+    width:50px;
+}
+
+
+.flexCol--resultado{    
+    width:70%;    
+    display:flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width:700px){
+    
+.flexCol--appCompra{
+    position:unset;
+    right:1rem;
+    top:0px;
+    box-sizing: border-box;
+    justify-content: center;
+    width:40%;
+}
+}

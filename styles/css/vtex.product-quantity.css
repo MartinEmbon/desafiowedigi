@@ -1,0 +1,10 @@
+.quantitySelectorStepper{
+    position:absolute;
+    margin-top:1rem;
+    right:350px;
+    top:282px;
+}
+
+.quantitySelectorTitle{
+    display:none;
+}

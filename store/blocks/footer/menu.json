@@ -1,0 +1,352 @@
+{
+  "vtex.menu@2.x:menu#Institucional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#fale",
+      "menu-item#cupons",
+      "menu-item#frete",
+      "menu-item#lojas",
+      "menu-item#sobre",
+      "menu-item#tabela",
+      "menu-item#trocas"
+    ]
+  },
+  "menu-item#fale": {
+    "props": {
+      "id": "menu-item-fale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "News",
+        "text": "FALE CONOSCO"
+      }
+    }
+  },
+  "menu-item#cupons": {
+    "props": {
+      "id": "menu-item-cupons",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BlackFriday",
+        "text": "CUPONS"
+      }
+    }
+  },
+  "menu-item#frete": {
+    "props": {
+      "id": "menu-item-frete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "FRETE GRATIS"
+      }
+    }
+  },
+  "menu-item#lojas": {
+    "props": {
+      "id": "menu-item-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "LOJAS OFICIAS"
+      }
+    }
+  },
+  "menu-item#sobre": {
+    "props": {
+      "id": "menu-item-sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "SOBRE NÓS"
+      }
+    }
+  },
+  "menu-item#tabela": {
+    "props": {
+      "id": "menu-item-tabela",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "TABELA DE MEDIDAS"
+      }
+    }
+  },
+  "menu-item#trocas": {
+    "props": {
+      "id": "menu-item-trocas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "TROCAS E DEVOLUCOES"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#atendimento": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefone",
+      "menu-item#whatsapp",
+      "menu-item#email"
+    ]
+  },
+
+  "menu-item#telefone": {
+    "props": {
+      "id": "menu-item-telefone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "telefone",
+        "text": "TELEFONE: (11)9999-0000"
+      }
+    }
+  },
+
+  "menu-item#whatsapp": {
+    "props": {
+      "id": "menu-item-whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "whatsapp",
+        "text": "WHATSAPP: : (11)9999-0000"
+      }
+    }
+  },
+
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "email",
+        "text": "CONTATO@WEDIGI.COM.BR"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#footer-ajuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#perguntas",
+      "menu-item#termos",
+      "menu-item#politicas",
+      "menu-item#como"
+    ]
+  },
+
+  "menu-item#perguntas": {
+    "props": {
+      "id": "menu-item-category-perguntas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "perguntas",
+        "text": "PERGUNTAS"
+      }
+    }
+  },
+
+  "menu-item#termos": {
+    "props": {
+      "id": "menu-item-termos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "termos",
+        "text": "TERMOS DE USO"
+      }
+    }
+  },
+
+  "menu-item#politicas": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "politicas",
+        "text": "POLITICAS DE PRIVACIDADE"
+      }
+    }
+  },
+
+  "menu-item#como": {
+    "props": {
+      "id": "menu-item-como",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "como",
+        "text": "COMO COMPRAR"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucional-mobile",
+      "menu-item#ajuda-mobile",
+      "menu-item#atendimento-mobile"
+      
+    ]
+  },
+
+  "menu-item#ajuda-mobile": {
+    "props": {
+      "id": "menu-item-category-ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ajuda"]
+  },
+  "vtex.menu@2.x:submenu.accordion#ajuda": {
+    "children": ["vtex.menu@2.x:menu#ajuda-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#ajuda-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#termos",
+      "menu-item#politicas",
+      "menu-item#como"
+    ]
+  },
+
+  "menu-item#atendimento-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento": {
+    "children": ["vtex.menu@2.x:menu#footer-atendimento-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-atendimento-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefone",
+      "menu-item#whatsapp",
+      "menu-item#email"
+    ]
+  },
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": ["vtex.menu@2.x:menu#footer-institucional-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-institucional-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#fale",
+      "menu-item#cupons",
+      "menu-item#frete",
+      "menu-item#lojas",
+      "menu-item#sobre",
+      "menu-item#tabela",
+      "menu-item#trocas"
+    ]
+  }
+}

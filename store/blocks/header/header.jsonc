@@ -1,0 +1,142 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#4-desktop",      
+      "header-row#5-desktop"
+    ]
+  },
+  "rich-text#super": {
+    "props": {
+      "text": "Frete gratis a partir de R$170,00",
+      "blockClass":"freteIcon"
+      
+    }
+  },
+
+  "header-row#4-desktop": {
+    "children": [
+//rich text
+      "rich-text#super"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+ 
+
+  "header-row#5-desktop": {
+    "children": [
+      "header-row#1-logo-desktop",      
+      "header-spacer",
+      "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer",
+      "header-spacer",
+      "search-bar",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "blockClass": "main-topbar",
+      "sticky": true
+    }
+  },
+  "header-row#1-logo-desktop":{
+    "props":{
+      "blockClass":"filaLogo"
+    },
+    "children":["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.wedigi.com.br/wp-content/themes/wedigi-theme/assets/images/logo-wedigi.png",
+      //"width": "150",
+      "blockClass":"logo"
+      
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+
+
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-acao",
+      "menu-item#category-aventura",
+      "menu-item#category-rpg",
+      "menu-item#category-estrategia",
+      "menu-item#category-simulacao"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.wedigi.com.br/wp-content/themes/wedigi-theme/assets/images/logo-wedigi.png",
+      "width": "70"
+    }
+  }
+}

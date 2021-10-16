@@ -1,0 +1,119 @@
+
+
+{
+  "store.custom#simulacao": {
+    "blocks": [
+      "info-card#simulacao",
+      "shelf#acao",
+      "shelf#acao1",
+      "shelf#acao2",
+      "info-card#acao-footer"
+      
+    ]
+      },
+    "info-card#simulacao": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "http://s2.glbimg.com/NyYz6gzbYA86EXkgCqHvjNrjP7s=/0x0:694x391/695x392/s.glbimg.com/po/tt2/f/original/2015/03/27/bloodborne.png",
+        "headline": "Simulacao",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+        "callToActionMode": "none",
+        "callToActionText": "Explore",
+        "callToActionUrl": "#",
+        "textAlignment": "left",
+        "blockClass":"acao"
+      }
+    },
+    "shelf#acao": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "collection": "139",
+        "blockClass":"acao-shelf",
+        "productList": {
+          "maxItems": 9,
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "minItemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Encontramos 150 jogos para voce se divertir"          
+        }
+      }
+    },
+    "shelf#acao1": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "collection": "139",
+        "blockClass":"acao-shelf",
+        "productList": {
+          "maxItems": 9,
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "minItemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""          
+        }
+      }
+    },
+    "shelf#acao2": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "collection": "139",
+        "blockClass":"acao-shelf",
+        "productList": {
+          "maxItems": 9,
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "minItemsPerPage": {
+            "desktop": 5,
+            "tablet": 1,
+            "phone": 1
+          },
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""          
+        }
+      }
+    },
+  
+    "info-card#acao-footer": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://remoteplay.dl.playstation.net/remoteplay/images/main-visual--sm.jpg",
+        "headline": "Como escolher o videogame ideal ara voce?<br>Descubra dicas infalíveis!",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels. Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br><br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.",
+        "callToActionMode": "none",
+        "callToActionText": "Exploree",
+        "callToActionUrl": "#",
+        "textAlignment": "left",
+        "blockClass":"acao-footer"
+      }
+    }
+}
+

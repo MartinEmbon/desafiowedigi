@@ -1,0 +1,14 @@
+.container{
+    position:absolute;
+    top:-400px;
+    left:1rem;
+    color:white;
+}
+
+.link{
+    color:white;
+}
+
+.caretIcon{
+    color:white;
+}

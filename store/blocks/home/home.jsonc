@@ -1,0 +1,248 @@
+// store/blocks/home.jsonc
+{
+  "store.home": {
+    "blocks": [    
+      "flex-layout.row#slider",
+      "shelf#destaques",
+      "shelf#plataforma",
+      "stack-layout#cta",              
+      "shelf#en-alta",
+      "flex-layout.row",
+      "shelf#new-arrivals"
+      
+      //"flex-layout.row#brands",      
+      //"list-context.product-list",      
+      //"slider-layout#home",
+    ]  
+  },
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 8
+    }
+  },
+
+  "shelf#new-arrivals": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "139",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "minItemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Aproveite nossas promocoes",
+        "blockClass": "shelfText"
+
+      }
+    }
+  
+},
+
+  "shelf#en-alta": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "140",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "minItemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "En alta"
+      }
+    }  
+},
+  "shelf#plataforma": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "140",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": 5,
+        "minItemsPerPage":5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Busque por plataforma"
+      }
+    }  
+},
+  "shelf#destaques": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "140",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "minItemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Destaques da Semana"
+      }
+    }  
+},
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "assets/red.jpg"
+          
+        },    
+        {
+          "image": "assets/uncharted.jpg"
+        },                
+        {
+          "image": "assets/spider.jpg"
+        }                
+      ],
+      
+      "showArrows": false,
+      "showDots": true,
+      "marginTop":0
+    }
+  },
+
+  "flex-layout.row#slider": {
+    "children": [
+      // "slider-layout#styles",
+      "carousel#home"
+    ]
+  },
+  "stack-layout#cta": {
+    "props":{
+      "blockClass":"Stack"
+    },
+    "children": [
+         "image#cta",
+         "link#cta"
+       ]
+    },
+    
+     "image#cta": {
+       "props": {
+         "blockClass": "cover",
+         "width": "100%",
+         "height": 380,
+         "src": "https://i.ytimg.com/vi/ONzr7dLJrpY/maxresdefault.jpg"
+       }
+     },
+     "link#cta": {
+       "props": {
+         "displayMode": "button",
+         "buttonProps": {
+           "variant": "primary",
+           "size": "large"
+         },
+         "href": "#",
+         "label": "Reservar"
+       }     
+    },
+
+  "list-context.product-list": {
+       "blocks": ["product-summary.shelf"],
+       "children": ["slider-layout"]
+     },
+     "product-summary.shelf": {
+       "children": [
+        "modal-trigger#quickview", 
+        "product-summary-name",
+         "product-selling-price"
+       ]
+     },
+  
+  "modal-trigger#quickview": {
+      "children": ["product-summary-image", "modal-layout#quickview"]
+    },
+    "modal-layout#quickview": {
+         "children": [
+           "product-summary-name",
+           "product-images",
+           "product-summary-sku-selector",
+           "product-summary-quantity",
+           "add-to-cart-button"
+         ]
+    },
+  "modal-layout#first": {
+       "children": [
+         "rich-text#hello"
+       ]
+     },
+     "rich-text#hello": {
+       "props": {
+         "text": "Hello"
+       }
+     },
+
+
+
+  "flex-layout.row": {
+    "children": ["flex-layout.col#izq","flex-layout.col#der"]
+  },
+  "flex-layout.col#izq": {
+    "children": ["info-card#left"]
+  },
+  "flex-layout.col#der": {
+    "children": ["info-card#right"]
+  },
+
+  "info-card#left": {
+    "props": {
+      "imageUrl": "https://macmagazine.com.br/wp-content/uploads/2018/02/01-mario.jpg",
+      "isFullModeStyle": true,
+      "headline": "Sessao Nostalgia",
+      "subhead": "Encontre os jogos favoritos da sua infancia.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "#",
+      "textPosition": "left"
+    }
+  },
+  "info-card#right": {
+    "props": {
+      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "isFullModeStyle": true,
+      "headline": "No clima das Olimpíadas",
+      "subhead": "Os melhores jogos esportívos estao aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "#",
+      "textPosition": "left"
+    }
+  }
+}

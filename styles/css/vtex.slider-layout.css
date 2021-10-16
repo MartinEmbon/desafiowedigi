@@ -1,0 +1,8 @@
+.sliderLayoutContainer{
+    background-color: #1db8fb; 
+}
+
+.slideChildrenContainer{
+    padding:.5rem;
+    border-radius: 5px;
+}

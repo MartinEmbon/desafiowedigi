@@ -1,0 +1,218 @@
+.container{
+  background-color: #06092b;   
+  color:white;
+  width:100%;
+}
+
+.logoImage--logo{    
+  width:350px;
+  margin-top:.5rem;
+  align-items: center;
+  justify-content: center;  
+  padding:0;  
+}
+
+.logoLink{
+  margin-right: 1rem;
+}
+
+.imageElement--cover {
+    object-fit: cover;    
+}
+.imageElement--game {
+    object-fit:cover;    
+    border:none;
+    margin:0;
+    padding:0;
+    height: 400px;  
+}
+
+.imageElement--sliderPicture {
+    border-radius: 5px;;
+}
+  
+.infoCardTextContainer{
+  width:80%;
+  color:white;
+}
+.infoCardTextContainer--acao{
+  width:50%;
+  color:white;
+  position:relative;
+
+}
+.infoCardTextContainer--acao-footer{
+  width:50%;
+  margin-left:1rem;
+  color:white;  
+  margin-bottom: 0.5rem;
+}
+.infoCardTextContainer--descricaoProd{
+  width:100%;
+  margin-left:1rem;
+  color:white;  
+  margin-bottom: 0.5rem;
+}
+
+.infoCardSubhead{
+  width:90%;
+  color:white;
+  font-weight:bold;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    color: white;
+    background-color: gray;
+    border: transparent;
+}
+  
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  color: gray;
+  background-color: blue;
+  border: transparent;
+}
+  
+.infoCardHeadline{  
+  width:80%;
+  color:white;
+  font-weight:bold;
+  font-family: serif;
+  font-size: 2.25rem;
+  position:relative;
+}
+
+.infoCardHeadline::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  border:0;
+  padding:1.5rem;  
+  width:5px;
+  border-bottom:3px solid #4839ff;
+}
+
+.infoCardContainer {    
+    height:400px;
+    margin: 2rem auto;
+    padding: 0;
+    margin-left:1rem;
+    background-color: #06092b;      
+  }
+
+.infoCardContainer--acao-footer {    
+    height:500px;    
+    padding: 1rem;
+    padding-bottom: 3rem; 
+    margin:0;
+    background-color: #06092b;      
+  }
+
+.infoCardContainer--descricaoProd {    
+    width:90%;
+    margin:0;
+    padding: 1rem;     
+    background-color: #06092b;       
+}
+
+  .infoCardImage--acao-footer{
+    height:fit-content;
+    width:500px;
+  }
+  .infoCardImage--acao{
+    height:400px;
+    object-position: center;
+    display:block;
+    object-fit: cover;
+    background-size: cover; 
+    
+  }
+  .infoCardImage--acao-footer{
+    height:400px;
+    object-position: center;
+    display:block;
+    object-fit: cover;
+    background-size: cover; 
+    border-radius:5px;
+  }
+
+
+  .infoCardContainer--acao {    
+    height:400px;
+    margin: 0;    
+    background-color: #1db8fb;   
+    
+  }
+
+  .productImage{
+    width:90%;        
+    margin:.5rem;       
+    
+  }
+
+  .skuSelectorOptionsList,
+  .skuSelectorTextContainer{
+    display:none;
+  }  
+  .productBrand{
+    position:absolute;
+    left:2rem;
+    top:300px;
+    width:80%;
+    color:white;
+    font-weight:bold;
+    font-family: serif;
+    font-size: 2.25rem;    
+  }
+
+  .productBrand::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    border:0;
+    padding:1.5rem;  
+    width:5px;
+    border-bottom:3px solid #4839ff;
+  
+  }
+  
+@media screen and (max-width:700px){
+  .infoCardContainer--acao{      
+      height:400px;
+      margin: 0;    
+      position:relative;
+      z-index: 1000;
+  }
+  .infoCardImage--acao{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:-99;
+  }
+  .infoCardContainer--acao-footer{      
+    height:400px;
+    margin: 0;    
+    position:relative;
+    z-index: 1000;
+}
+.infoCardImage--acao-footer{
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:-99;
+}
+
+.infoCardHeadline--acao-footer{
+  color:white;
+  font-size: 15px;
+  width: 500px;
+}
+.infoCardSubhead--acao-footer{
+  color:white;
+  font-size: 10px;
+  width: 400px;
+  
+}
+
+}
