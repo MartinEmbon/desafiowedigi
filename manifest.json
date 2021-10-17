@@ -1,6 +1,6 @@
 {
   "vendor": "wedigi",
-  "name": "wedigi-store",
+  "name": "desafiomartin",
   "version": "0.0.6",
   "builders": {
     "styles": "2.x",
