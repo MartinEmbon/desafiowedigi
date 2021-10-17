@@ -101,11 +101,8 @@
     ],
     "props": {
     "fullWidth": true,
-    "sticky": true,
-    "blockClass": "main-header-mobile" 
-  }
-
-    
+    "sticky": true    
+  }    
   },
 
   "header-row#1-mobile": {
