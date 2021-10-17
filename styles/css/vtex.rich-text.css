@@ -1,3 +1,36 @@
+.paragraph--titulos{
+    color:white;
+    justify-content: left;            
+    padding-left:.5rem;
+    margin-left:1rem;
+    font-weight: bold;     
+    border-left:2px solid purple;
+}
+.paragraph--titulosCentro{
+    color:white;
+    justify-content: center;  
+    text-align: center;          
+    padding-left:.5rem;
+    margin-left:1rem;
+    font-weight: bold;     
+}
+.wrapper--titulos{
+    width:100%;
+    background-color: #06092b;      
+}
+.wrapper--titulosCentro{
+    width:100%;
+    background-color: #06092b;      
+}
+
+@media screen and (max-width:700px){
+    .paragraph--titulos{
+        font-size: 16px;        
+        padding:0;
+        
+    }
+}
+
 .container {
     display:flex;
     justify-content:center;
@@ -5,6 +38,7 @@
     width:100%;    
     background-color: #1db8fb; 
 }
+
 
 .wrapper{
     position:relative;

@@ -1,6 +1,14 @@
 .sliderLayoutContainer{
     background-color: #1db8fb; 
 }
+.sliderLayoutContainer--shelf{
+    background-color: #06092b;   
+}
+.sliderLayoutContainer--shelfPlataforma{
+    background-color: #1db8fb; 
+}
+
+
 
 .slideChildrenContainer{
     padding:.5rem;

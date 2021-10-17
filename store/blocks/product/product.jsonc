@@ -2,15 +2,15 @@
 {
   "store.product": {
     "children": [      
-      //"breadcrumb",
-    
+      //"breadcrumb",    
       "condition-layout.product",
-      "condition-layout.product#case",
-      //"image#always",
+      "condition-layout.product#case",    
       "flex-layout.row#main",
       "slider-layout#home",
       "flex-layout.row#about-us",
-      "shelf#en-alta"
+      "rich-text#gostatambem",      
+      "list-context.product-list#destaque"
+    
     ]
   },
   

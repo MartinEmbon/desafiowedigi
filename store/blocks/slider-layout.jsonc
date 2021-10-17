@@ -56,5 +56,33 @@
         "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
         "blockClass":"sliderPicture"
       }
+    },
+  
+
+  "slider-layout#demo-products": {
+    "props": {      
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":"never"
+    }
+  },
+  "slider-layout#plataforma": {
+    "props": {      
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelfPlataforma",
+      "showPaginationDots":"never"
     }
   }
+}

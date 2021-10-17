@@ -22,7 +22,9 @@ const LeadForm = () => {
       email
     };
     axios
-      .post("https://89xudou1d2.execute-api.sa-east-1.amazonaws.com/prod/lead", data)
+     
+
+      .post("https://7flf4ocuok.execute-api.sa-east-1.amazonaws.com/prod", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
       

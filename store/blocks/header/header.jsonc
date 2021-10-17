@@ -27,7 +27,6 @@
 
   "header-row#4-desktop": {
     "children": [
-//rich text
       "rich-text#super"
     ],
     "props": {
@@ -42,12 +41,8 @@
 
   "header-row#5-desktop": {
     "children": [
-      "header-row#1-logo-desktop",      
-      "header-spacer",
-      "header-spacer",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer",
-      "header-spacer",
+      "header-row#1-logo-desktop",            
+      "vtex.menu@2.x:menu#category-menu",      
       "search-bar",
       "login",
       "minicart"
@@ -93,7 +88,8 @@
 
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#1-searchmob"            
     ]
   },
 
@@ -101,15 +97,17 @@
   "header-row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
-      "header-spacer",
-      "header-spacer",
+      "logo#mobile",          
       "minicart"
     ],
     "props": {
       "sticky": true,
       "blockClass": "main-header-mobile"
     }
+  },
+
+  "header-row#1-searchmob":{
+    "children":["search-bar"]
   },
 
   "drawer": {

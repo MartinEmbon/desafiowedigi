@@ -4,9 +4,10 @@
   "store.custom#rpg": {
     "blocks": [
       "info-card#rpg",
-      "shelf#acao",
-      "shelf#acao1",
-      "shelf#acao2",
+      "rich-text#categorias",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
       "info-card#acao-footer"
       
     ]
@@ -15,7 +16,7 @@
       "props": {
         "isFullModeStyle": false,
         "textPosition": "left",
-        "imageUrl": "https://www.oficinadanet.com.br/imagens/post/18079/capa-review-watch-dogs-2.jpg",
+        "imageUrl": "https://api.time.com/wp-content/uploads/2016/11/watch_dogs_2_parkour.jpg",
         "headline": "RPG",
         "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
         "callToActionMode": "none",
@@ -25,81 +26,7 @@
         "blockClass":"acao"
       }
     },
-    "shelf#acao": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "Encontramos 150 jogos para voce se divertir"          
-        }
-      }
-    },
-    "shelf#acao1": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-        "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 1,
-          "phone": 1
-        },
-        "minItemsPerPage": {
-          "desktop": 5,
-          "tablet": 1,
-          "phone": 1
-        },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": null
-        }
-      }
-    },
-    "shelf#acao2": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": null
-        }
-      }
-    },
+    
   
     "info-card#acao-footer": {
       "props": {

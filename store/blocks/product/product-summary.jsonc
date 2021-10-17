@@ -1,0 +1,9 @@
+{
+"product-summary.shelf#destaque": {            
+    "children": [
+      "product-summary-name",      
+      "product-summary-image",
+      "product-selling-price"  
+    ]    
+}
+}

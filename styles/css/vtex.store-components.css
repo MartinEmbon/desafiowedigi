@@ -184,6 +184,16 @@
       position:relative;
       z-index: 1000;
   }
+  .infoCardTextContainer--acao{      
+    width:100%;
+    color:white;
+    position:relative;      
+  }
+  .infoCardTextContainer--acao-footer{      
+    width:100%;
+    color:white;
+    position:relative;      
+  }
   .infoCardImage--acao{
     position:absolute;
     top:0;

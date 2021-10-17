@@ -4,11 +4,11 @@
   "store.custom#aventura": {
     "blocks": [
       "info-card#aventura",
-      "shelf#acao",
-      "shelf#acao1",
-      "shelf#acao2",
-      "info-card#acao-footer"
-      
+      "rich-text#categorias",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "info-card#acao-footer"      
     ]
       },
     "info-card#aventura": {
@@ -25,73 +25,7 @@
         "blockClass":"acao"
       }
     },
-    "shelf#acao": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "Encontramos 150 jogos para voce se divertir"          
-        }
-      }
-    },
-    "shelf#acao1": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""          
-        }
-      }
-    },
-    "shelf#acao2": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": 4,
-          "minItemsPerPage": 1.5,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""          
-        }
-      }
-    },
+
   
     "info-card#acao-footer": {
       "props": {

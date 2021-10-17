@@ -1,0 +1,38 @@
+{
+    "rich-text#destaque":{
+        "props":{
+            "text":"Destaques da Semana",
+            "blockClass":"titulos"
+        }
+    },
+    "rich-text#destaque2":{
+        "props":{
+            "text":"Busque por plataforma",
+            "blockClass":"titulos"
+        }
+    },
+    "rich-text#destaque3":{
+        "props":{
+            "text":"Em alta",
+            "blockClass":"titulos"
+        }
+    },
+    "rich-text#destaque4":{
+        "props":{
+            "text":"Aproveite nossas promocoe",
+            "blockClass":"titulos"
+        }
+    },
+    "rich-text#categorias":{
+        "props":{
+            "text":"Encontramos 150 jogos para voce se divertir",
+            "blockClass":"titulosCentro"
+        }
+    },
+    "rich-text#gostatambem":{
+        "props":{
+            "text":"Voce tambem deve gostar de",
+            "blockClass":"titulos"
+        }
+    }
+}

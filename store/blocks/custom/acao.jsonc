@@ -4,18 +4,18 @@
   "store.custom#acao": {
     "blocks": [
       "info-card#acao",
-      "shelf#acao",
-      "shelf#acao1",
-      "shelf#acao2",
-      "info-card#acao-footer"
-      
+      "rich-text#categorias",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "info-card#acao-footer"      
     ]
       },
     "info-card#acao": {
       "props": {
         "isFullModeStyle": false,
         "textPosition": "left",
-        "imageUrl": "https://www.oficinadanet.com.br/imagens/post/18079/capa-review-watch-dogs-2.jpg",
+        "imageUrl": "https://www.gematsu.com/wp-content/uploads/2021/08/Hellblade_08-09-21.jpg",
         "headline": "Acao / Aventura",
         "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
         "callToActionMode": "none",
@@ -25,7 +25,26 @@
         "blockClass":"acao"
       }
     },
-    "shelf#acao": {
+    
+  
+    "info-card#acao-footer": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://remoteplay.dl.playstation.net/remoteplay/images/main-visual--sm.jpg",
+        "headline": "Como escolher o videogame ideal ara voce?<br>Descubra dicas infalíveis!",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels. Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br><br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.",
+        "callToActionMode": "none",
+        "callToActionText": "Explore",
+        "callToActionUrl": "#",
+        "textAlignment": "left",
+        "blockClass":"acao-footer"
+      }
+    }
+}
+
+/*
+"shelf#acao": {
       "blocks": ["product-summary.shelf"],
       "props": {
         "orderBy": "OrderByTopSaleDESC",
@@ -92,20 +111,4 @@
         }
       }
     },
-  
-    "info-card#acao-footer": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "https://remoteplay.dl.playstation.net/remoteplay/images/main-visual--sm.jpg",
-        "headline": "Como escolher o videogame ideal ara voce?<br>Descubra dicas infalíveis!",
-        "subhead": "Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels. Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br><br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.Available until January 2020.",
-        "callToActionMode": "none",
-        "callToActionText": "Explore",
-        "callToActionUrl": "#",
-        "textAlignment": "left",
-        "blockClass":"acao-footer"
-      }
-    }
-}
-
+    */

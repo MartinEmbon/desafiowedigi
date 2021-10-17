@@ -4,9 +4,10 @@
   "store.custom#simulacao": {
     "blocks": [
       "info-card#simulacao",
-      "shelf#acao",
-      "shelf#acao1",
-      "shelf#acao2",
+      "rich-text#categorias",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
+      "list-context.product-list#destaque",
       "info-card#acao-footer"
       
     ]
@@ -15,7 +16,7 @@
       "props": {
         "isFullModeStyle": false,
         "textPosition": "left",
-        "imageUrl": "http://s2.glbimg.com/NyYz6gzbYA86EXkgCqHvjNrjP7s=/0x0:694x391/695x392/s.glbimg.com/po/tt2/f/original/2015/03/27/bloodborne.png",
+        "imageUrl": "https://i.ytimg.com/vi/rhpZhZV3XTY/maxresdefault.jpg",
         "headline": "Simulacao",
         "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
         "callToActionMode": "none",
@@ -25,82 +26,7 @@
         "blockClass":"acao"
       }
     },
-    "shelf#acao": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "Encontramos 150 jogos para voce se divertir"          
-        }
-      }
-    },
-    "shelf#acao1": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""          
-        }
-      }
-    },
-    "shelf#acao2": {
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "never",
-        "collection": "139",
-        "blockClass":"acao-shelf",
-        "productList": {
-          "maxItems": 9,
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "minItemsPerPage": {
-            "desktop": 5,
-            "tablet": 1,
-            "phone": 1
-          },
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""          
-        }
-      }
-    },
-  
+
     "info-card#acao-footer": {
       "props": {
         "isFullModeStyle": false,

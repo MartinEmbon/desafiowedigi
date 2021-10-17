@@ -1,0 +1,47 @@
+{
+    "list-context.product-list#destaque": {
+        "blocks": ["product-summary.shelf#destaque"],
+        "children": ["slider-layout#demo-products"],
+        "props": {      
+            "scroll": "BY_PAGE",
+            "arrows": true,       
+            "blockClass": "shelfText",
+            "orderBy": "OrderByTopSaleDESC"
+          //"collection":"147"      
+        }
+      },
+      "list-context.product-list#plataforma": {
+        "blocks": ["product-summary.shelf#destaque"],
+        "children": ["slider-layout#plataforma"],
+        "props": {      
+            "scroll": "BY_PAGE",
+            "arrows": true,       
+            "blockClass": "shelfPlataforma",
+            "orderBy": "OrderByTopSaleDESC"
+          //"collection":"147"      
+        }
+      },
+      "list-context.product-list#enAlta": {
+        "blocks": ["product-summary.shelf#destaque"],
+        "children": ["slider-layout#demo-products"],
+        "props": {      
+            "scroll": "BY_PAGE",
+            "arrows": true,        
+            "blockClass": "shelfText",
+            "orderBy": "OrderByTopSaleDESC"
+          //"collection":"147"      
+        }
+      },
+      "list-context.product-list#promocoes": {
+        "blocks": ["product-summary.shelf#destaque"],
+        "children": ["slider-layout#demo-products"],
+        "props": {      
+            "scroll": "BY_PAGE",
+            "arrows": true,      
+            "blockClass": "shelfText",
+            "orderBy": "OrderByTopSaleDESC"
+            
+          //"collection":"147"      
+        }
+      }    
+}
