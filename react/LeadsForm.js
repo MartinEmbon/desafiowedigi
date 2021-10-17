@@ -24,7 +24,6 @@ const LeadForm = () => {
       game
     };
     axios
-     
       .post("https://7flf4ocuok.execute-api.sa-east-1.amazonaws.com/prod", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
