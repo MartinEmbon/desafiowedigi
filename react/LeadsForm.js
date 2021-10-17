@@ -19,11 +19,12 @@ const LeadForm = () => {
     e.preventDefault();
   //  email.value=""
     const data = {      
-      email
+      email,
+      name,
+      game
     };
     axios
      
-
       .post("https://7flf4ocuok.execute-api.sa-east-1.amazonaws.com/prod", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
@@ -31,8 +32,7 @@ const LeadForm = () => {
 window.location = "/"
   };
 
-   
-   
+
     return (
         
         <div className={`${handles.container}`}>
