@@ -19,7 +19,7 @@
   },
   "rich-text#super": {
     "props": {
-      "text": "Frete gratis a partir de R$170,00",
+      "text": "Frete grátis a partir de R$170,00",
       "blockClass":"freteIcon"
       
     }
