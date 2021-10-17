@@ -19,19 +19,19 @@
     },
     "rich-text#destaque4":{
         "props":{
-            "text":"Aproveite nossas promocoe",
+            "text":"Aproveite nossas promoções",
             "blockClass":"titulos"
         }
     },
     "rich-text#categorias":{
         "props":{
-            "text":"Encontramos 150 jogos para voce se divertir",
+            "text":"Encontramos 150 jogos para você se divertir",
             "blockClass":"titulosCentro"
         }
     },
     "rich-text#gostatambem":{
         "props":{
-            "text":"Voce tambem deve gostar de",
+            "text":"Você também deve gostar de",
             "blockClass":"titulos"
         }
     }
