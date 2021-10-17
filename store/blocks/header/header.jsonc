@@ -88,11 +88,25 @@
 
   "header-layout.mobile": {
     "children": [
+      "header-row#1-super",
       "header-row#1-mobile",
       "header-row#1-searchmob"            
     ]
+    
   },
 
+  "header-row#1-super":{          
+    "children":[
+      "rich-text#super"
+    ],
+    "props": {
+    "fullWidth": true,
+    "sticky": true,
+    "blockClass": "main-header-mobile" 
+  }
+
+    
+  },
 
   "header-row#1-mobile": {
     "children": [
@@ -102,7 +116,7 @@
     ],
     "props": {
       "sticky": true,
-      "blockClass": "main-header-mobile"
+      "blockClass": "main-header-mobile"     
     }
   },
 

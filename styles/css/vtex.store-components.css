@@ -178,11 +178,24 @@
   }
   
 @media screen and (max-width:700px){
+  .productBrand{
+    position:absolute;
+    left:2rem;
+    top:150px;    
+    padding-bottom: .5rem;
+  }
+
+  
   .infoCardContainer--acao{      
       height:400px;
       margin: 0;    
       position:relative;
       z-index: 1000;
+  }
+  .infoCardContainer{      
+    
+    margin-left:0;
+    
   }
   .infoCardTextContainer--acao{      
     width:100%;
@@ -217,11 +230,13 @@
   color:white;
   font-size: 15px;
   width: 500px;
+  padding-bottom: .5rem;
 }
 .infoCardSubhead--acao-footer{
   color:white;
   font-size: 10px;
   width: 400px;
+  line-height: 20px;
   
 }
 

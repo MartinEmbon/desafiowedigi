@@ -29,7 +29,7 @@
             "arrows": true,        
             "blockClass": "shelfText",
             "orderBy": "OrderByTopSaleDESC"
-          //"collection":"147"      
+//            "collection":"139"      
         }
       },
       "list-context.product-list#promocoes": {

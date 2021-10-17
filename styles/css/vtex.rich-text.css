@@ -1,7 +1,7 @@
 .paragraph--titulos{
     color:white;
     justify-content: left;            
-    padding-left:.5rem;
+    padding-left:1rem;
     margin-left:1rem;
     font-weight: bold;     
     border-left:2px solid purple;
@@ -10,7 +10,7 @@
     color:white;
     justify-content: center;  
     text-align: center;          
-    padding-left:.5rem;
+    padding-left:1rem;
     margin-left:1rem;
     font-weight: bold;     
 }
@@ -27,7 +27,7 @@
     .paragraph--titulos{
         font-size: 16px;        
         padding:0;
-        
+        padding-left:1rem;
     }
 }
 
@@ -100,5 +100,6 @@
         font-size: 10px;     
         background-color: #06092b;      
     }
+    
 
 }

@@ -17,6 +17,7 @@
 
 @media screen and (max-width:700px){
  .stackItem{
-   justify-content: start;   
- } 
+   justify-content:left;
+ }
+ 
 }
