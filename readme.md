@@ -1,6 +1,6 @@
 # Desafio we.digi store
 
-## Desenvolvimento de um mvp para para loja de video games.
+## Desenvolvimento de um mvp para loja de video games.
 
 Cada pagina tem distintas features com a finalidade de explorar o poder das ferramentas de VTEX IO. 
 
