@@ -9,7 +9,7 @@ const CSS_HANDLES = ["arrow","inputFormat","leftText","container", "emailInput",
 
 const LeadForm = () => {
    
-   const [email,setEmail]=useState("")
+   const [emailId,setEmailId]=useState("")
    const [name,setName]=useState("")
    const [game,setGame]=useState("")
   
@@ -19,12 +19,12 @@ const LeadForm = () => {
     e.preventDefault();
   //  email.value=""
     const data = {      
-      email,
+      emailId,
       name,
       game
     };
     axios
-      .post("https://7flf4ocuok.execute-api.sa-east-1.amazonaws.com/prod", data)
+      .post("https://7flf4ocuok.execute-api.sa-east-1.amazonaws.com/prod/product", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
       
@@ -55,8 +55,8 @@ window.location = "/"
         <input
           type="email" name="email"
             className={`${handles.emailInput}`}
-            placeholder="Digite seu e-mail" value={email}
-            onChange={(e)=>setEmail(e.target.value)} required
+            placeholder="Digite seu e-mail" value={emailId}
+            onChange={(e)=>setEmailId(e.target.value)} required
           />          
         <input
           type="text" name="game"
