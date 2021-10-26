@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "vtex.store": "2.x",
+    "vtex.store-icons": "0.x",
     "vtex.css-handles": "0.x",
     "vtex.condition-layout": "1.x",
     "vtex.store-link": "0.x",

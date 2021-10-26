@@ -11,6 +11,64 @@
 
 
 .slideChildrenContainer{
-    padding:.5rem;
-    border-radius: 5px;
+    padding:0;
+    margin-left:1rem;
+    border-radius:0;
+    position:relative;
+}
+.slideChildrenContainer--carouselHeader{
+    padding:0;
+    margin-left:0;
+    border-radius:0;
+    position:relative;
+    background-color: #06092b;   
+    width: 100%;    
+}
+
+.slide--carouselHeader{
+    background-color: #06092b;
+    width: 100vw;
+}
+
+.slideChildrenContainer--carouselProdutos{
+    padding:1rem 0;   
+    margin:0;
+}
+.sliderRightArrow{
+    position:absolute;
+    top:-40px;
+    right:20px;    
+    color:white;
+    z-index:1000;    
+}
+.sliderRightArrow::after{
+    position:absolute;
+    content:"";
+    top:-7px;
+    left: -2px;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    background:turquoise;
+    z-index:-1000;
+}
+
+.sliderLeftArrow{
+    position:absolute;
+    top:-40px;
+    left:970px;
+    color:white;
+    z-index:1000;    
+}
+
+.sliderLeftArrow::after{
+    position:absolute;
+    content:"";
+    top:-7px;
+    left: -2px;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    background:turquoise;
+    z-index:-1000;
 }

@@ -130,6 +130,7 @@
     "children": ["search-content"],
     "props": {
       "preserveLayoutOnMobile": true
+      
     }
   },
 

@@ -3,8 +3,11 @@
     height:200px;
     background-size: cover;
     background-position: center center;
+    border-radius:5px;
 }
 
 .productBrand{
     color:white;
+    font-weight: bold;
 }
+

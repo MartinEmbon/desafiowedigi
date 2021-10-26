@@ -5,6 +5,7 @@
     margin-left:1rem;
     font-weight: bold;     
     border-left:2px solid purple;
+    font-size: 25px;
 }
 .paragraph--titulosCentro{
     color:white;
@@ -77,6 +78,22 @@
     top:13px;
     content:"";
 }
+.container--tituloFooter{
+    background:transparent;
+    margin:0;
+    padding:0;
+}
+
+.wrapper--tituloFooter{
+    text-align:left;
+    color:white;
+    font-weight: bold;   
+    justify-content: flex-start; 
+    width:100%;
+    margin-left: 1.5rem;
+}
+
+
 
 @media screen and (max-width:700px){
     .container--descricaoProd,

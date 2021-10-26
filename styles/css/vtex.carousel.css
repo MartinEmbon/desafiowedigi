@@ -1,6 +1,7 @@
 .container{
-    margin:3rem 0;
-    height:400px;
+    /* margin:3rem 0; */
+    height:auto;
+    margin:1rem;
 }
 
 .containerImg{
@@ -11,8 +12,7 @@
 
 @media screen and (max-width:700px){
     .container{
-        margin:2rem 0;
-        
+        /* margin:2rem 0;         */
         height: 200px;
     }
     .img{

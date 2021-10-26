@@ -1,5 +1,29 @@
 {
-    "slider-layout#home": {
+  "slider-layout#header": {
+    "children": [
+      "info-card#game1", 
+      "info-card#game2",
+      "info-card#game3"
+    ],
+    "props": {
+      "blockClass": "carouselHeader",
+      "showNavigationArrows":"never",
+      "fullWidth":true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "showArrows": false,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+    
+  "slider-layout#home": {
       "children": [
         "image#brand1",
         "image#brand2",
@@ -15,6 +39,8 @@
           "phone": 1
         },
         "showPaginationDots":"never",
+        "showNavigationArrows":"never",
+        "blockClass":"carouselProdutos",
         "autoplay": {
           "timeout": 7000,
           "stopOnHover": true
@@ -69,20 +95,55 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf",
-      "showPaginationDots":"never"
+      "showPaginationDots":"never",
+      "arrowSize":15
     }
   },
   "slider-layout#plataforma": {
-    "props": {      
+    "children": [
+      "image#plata1",
+      "image#plata2",
+      "image#plata3",
+      "image#plata4"      
+    ],
+    "props": {
+      "blockClass":"plataforma",
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 4,
+        "tablet": 1,
         "phone": 1
       },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelfPlataforma",
-      "showPaginationDots":"never"
+      "showNavigationArrows":"never",
+      "showPaginationDots":"never",
+      "infinite":false
+    }
+  },
+  "image#plata1": {
+    "props": {
+      "src": "assets/plataf-play.png",
+      "blockClass":"consolas"
+    }
+  },
+  "image#plata2": {
+    "props": {
+      "src": "assets/plataf-xbox.png",
+      "blockClass":"consolas"
+    }
+  },
+  "image#plata3": {
+    "props": {
+      "src": "assets/plataf-wii.png",
+      "blockClass":"consolas"
+    }
+  },
+  "image#plata4": {
+    "props": {
+      "src": "assets/plataf-pc.png",
+      "blockClass":"consolas"
     }
   }
 }

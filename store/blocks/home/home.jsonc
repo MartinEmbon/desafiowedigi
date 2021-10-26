@@ -2,12 +2,16 @@
 {
   "store.home": {
     "blocks": [      
-      "flex-layout.row#slider",
+      "slider-layout#header",
+//      "flex-layout.row#slider",
       "rich-text#destaque",
       "list-context.product-list#destaque",
       "rich-text#destaque2",
-      "list-context.product-list#plataforma",
-      "stack-layout#cta",  
+      "flex-layout.row#plataforma",
+      
+      //"list-context.product-list#plataforma",      
+      //"stack-layout#cta",  
+      "flex-layout.row#stack",            
       "rich-text#destaque3",
       "list-context.product-list#enAlta",          
       "flex-layout.row",
@@ -15,6 +19,57 @@
       "list-context.product-list#promocoes"
     ]
   },
+  "flex-layout.row#plataforma":{
+    "props":{
+      "blockClass":"filaplataforma"
+    },
+    "children":[
+      "image#plata1",
+      "image#plata2",
+      "image#plata3",
+      "image#plata4"
+    ]
+  },
+
+  "info-card#game1": {
+    "props": {
+      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "isFullModeStyle": true,
+      "headline": "Red Dead Redemption II",
+      "subhead": "Ja disponivel para Playstation e PC.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "#",
+      "textPosition": "left",      
+      "blockClass":"header"
+    }
+  },
+
+  "info-card#game2": {
+    "props": {
+      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "isFullModeStyle": true,
+      "headline": "No clima das Olimpíadas",
+      "subhead": "Os melhores jogos esportívos estão aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "#",
+      "textPosition": "left",      
+      "blockClass":"header"
+    }
+  },
+
+  "info-card#game3": {
+    "props": {
+      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "isFullModeStyle": true,
+      "headline": "No clima das Olimpíadas",
+      "subhead": "Os melhores jogos esportívos estão aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "#",
+      "textPosition": "left",      
+      "blockClass":"header"
+    }
+  },
+
   "flex-layout.row#slider": {
     "children": [   
       "carousel#home"
@@ -32,7 +87,7 @@
       ],      
       "showArrows": false,
       "showDots": true,
-      "marginTop":0
+      "margin0":0
     }
   },
 
@@ -59,8 +114,8 @@
      "image#cta": {
        "props": {
          "blockClass": "cover",
-         "width": "100%",
-         "height": 380,
+         "width": "20",
+         "height": 30,
          "src": "https://i.ytimg.com/vi/ONzr7dLJrpY/maxresdefault.jpg"
        }
      },
@@ -74,6 +129,26 @@
          "href": "cashmere-masculina/p",
          "label": "Reservar"
        }     
+    },
+
+    "flex-layout.row#stack":{
+      "props":{
+        "blockClass":"filagame4"
+      },
+      "children":["info-card#game4"]
+    },
+
+    "info-card#game4": {
+      "props": {
+        "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+        "isFullModeStyle": true,
+        "headline": "Red Dead Redemption II",
+        "subhead": "Ja disponivel para Playstation e PC.",
+        "callToActionText": "Reservar",
+        "callToActionUrl": "#",
+        "textPosition": "right",      
+        "blockClass":"stack"
+      }
     },
 
 "flex-layout.row": {
@@ -94,7 +169,8 @@
       "subhead": "Encontre os jogos favoritos da sua infancia.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "#",
-      "textPosition": "left"
+      "textPosition": "left",
+      "blockClass":"nostalgia"
     }
   },
   "info-card#right": {
@@ -105,7 +181,8 @@
       "subhead": "Os melhores jogos esportívos estão aqui.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "#",
-      "textPosition": "left"
+      "textPosition": "left",
+      "blockClass":"olimpiadas"
     }
   }
 }

@@ -6,7 +6,9 @@
       "info-card#simulacao",
       "rich-text#categorias",
       "list-context.product-list#destaque",
+      "flex-layout.row#spacer",
       "list-context.product-list#destaque",
+      "flex-layout.row#spacer",
       "list-context.product-list#destaque",
       "info-card#acao-footer"
       

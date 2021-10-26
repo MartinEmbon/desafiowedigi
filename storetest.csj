@@ -1,0 +1,369 @@
+
+.installmentsPrice{
+  color:grey;
+  font-weight: bold;
+}
+
+.sellingPrice{
+  color:white;
+  font-weight: bold;
+}
+
+.autoCompleteOuterContainer{
+  background:none;  
+}
+
+
+.imageElement--cover {
+    background-size:cover;      
+}
+
+
+.imageElement--game {
+    object-fit:cover;        
+    margin:0;
+    padding:0;
+    height: 400px;  
+}
+
+
+
+.infoCardTextContainer{
+  width:80%;
+  color:white;
+}
+.infoCardTextContainer--acao{
+  width:50%;
+  color:white;
+  position:relative;
+}
+
+.infoCardTextContainer--acao-footer{
+  width:50%;
+  margin-left:1rem;
+  color:white;  
+  margin-bottom: 0.5rem;
+}
+.infoCardTextContainer--descricaoProd{
+  width:100%;
+  margin-left:1rem;
+  color:white;  
+  margin-bottom: 0.5rem;
+}
+
+.infoCardSubhead{
+  width:90%;
+  color:white;
+  font-weight:bold;
+}
+
+.infoCardCallActionContainer {
+    color: white;
+    background-color: gray;
+    border: transparent;
+}
+  
+
+  
+.infoCardHeadline{  
+  width:80%;
+  color:white;
+  font-weight:bold;
+  font-family: serif;
+  font-size: 2.25rem;
+  position:relative;
+}
+
+.infoCardHeadline::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  border:0;
+  padding:1.5rem;  
+  width:5px;
+  border-bottom:3px solid #4839ff;
+}
+
+.infoCardContainer--header{
+  height:400px;
+  margin: 2rem auto;
+  padding: 0;
+  margin-left:.5rem;
+  background-color: #06092b;      
+}
+.infoCardImageContainer{
+  width:100%;
+}
+.infoCardImage{
+  width:100%;
+}
+
+
+
+
+
+/* .infoCardContainer {    
+    height:400px;
+    margin: 2rem auto;
+    padding: 0;
+    margin-left:.5rem;
+    background-color: #06092b;      
+  }
+
+.infoCardContainer--acao-footer {    
+    height:500px;    
+    padding: 1rem;
+    padding-bottom: 3rem; 
+    margin:0;
+    background-color: #06092b;      
+  }
+
+.infoCardContainer--descricaoProd {    
+    width:90%;
+    margin:0;
+    padding: 1rem;     
+    background-color: #06092b;       
+}
+
+  .infoCardImage--acao-footer{
+    height:fit-content;
+    width:500px;
+  }
+  .infoCardImage--acao{
+    height:400px;
+    object-position: center;
+    display:block;
+    object-fit: cover;
+    background-size: cover; 
+    
+  }
+  .infoCardImage--acao-footer{
+    height:400px;
+    object-position: center;
+    display:block;
+    object-fit: cover;
+    background-size: cover; 
+    border-radius:5px;
+  }
+
+
+  .infoCardContainer--acao {    
+    height:400px;
+    margin: 0;    
+    background-color: #1db8fb;       
+  }
+
+  .infoCardContainer--nostalgia {    
+    height:400px;
+    margin: 2rem auto;
+    padding: 0;
+    margin-left:.5rem;
+    background-color:red;           
+    z-index: 10;
+  }
+
+  .productImage{
+    width:90%;        
+    margin:.5rem;       
+    
+  }
+  .skuSelectorOptionsList,
+  .skuSelectorTextContainer{
+    display:none;
+  }
+
+  .productBrand{
+    position:absolute;
+    left:2rem;
+    top:300px;
+    width:80%;
+    color:white;
+    font-weight:bold;
+    font-family: serif;
+    font-size: 2.25rem;    
+  }
+
+  .productBrand::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    border:0;
+    padding:1.5rem;  
+    width:5px;
+    border-bottom:3px solid #4839ff;
+  
+  }
+  
+@media screen and (max-width:700px){
+  .productBrand{
+    position:absolute;
+    left:2rem;
+    top:150px;    
+    padding-bottom: .5rem;
+  }
+
+  
+  .infoCardContainer--acao{      
+      height:400px;
+      margin: 0;    
+      position:relative;
+      z-index: 1000;
+  }
+  .infoCardContainer{          
+    height:400px;
+    margin: 2rem auto;
+    padding: 0;
+    margin-left:0;
+    background-color: #06092b;  
+  }
+  .infoCardTextContainer--acao{      
+    width:100%;
+    color:white;
+    position:relative;      
+  }
+  .infoCardTextContainer--acao-footer{      
+    width:100%;
+    color:white;
+    position:relative;      
+  }
+  .infoCardImage--acao{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:-99;
+  }
+  .infoCardContainer--acao-footer{      
+    height:400px;
+    margin: 0;    
+    position:relative;
+    z-index: 1000;
+  }
+
+  .infoCardImage--acao-footer{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:-99;
+  }
+
+  .infoCardHeadline--acao-footer{
+    color:white;
+    font-size: 15px;
+    width: 500px;
+    padding-bottom: .5rem;
+    }
+  .infoCardSubhead--acao-footer{
+    color:white;
+    font-size: 10px;
+    width: 400px;
+    line-height: 20px;  
+  }
+}
+
+
+SLIDER LAYOUT
+  
+  "slider-layout#brands": {
+      "children": [
+        "image#brand1",
+        "image#brand2",
+        "image#brand3",
+        "image#brand4",
+        "image#brand5",
+        "image#brand6"
+      ],
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "showPaginationDots":"never",
+        "autoplay": {
+          "timeout": 7000,
+          "stopOnHover": true
+        }
+      }
+    },
+    "image#brand1": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+    "image#brand2": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+    "image#brand3": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+    "image#brand4": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+    "image#brand5": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+    "image#brand6": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
+        "blockClass":"sliderPicture"
+      }
+    },
+  
+
+  "slider-layout#demo-products": {
+    "props": {      
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":"never"
+    }
+  },
+  "slider-layout#plataforma": {
+    "props": {      
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelfPlataforma",
+      "showPaginationDots":"never"
+    }
+  }
+}
+SLIDER LAYOUT C
+.sliderLayoutContainer{
+    background-color: #1db8fb; 
+}
+.sliderLayoutContainer--shelf{
+    background-color: #06092b;   
+}
+.sliderLayoutContainer--shelfPlataforma{
+    background-color: #1db8fb; 
+}
+
+.slideChildrenContainer{
+    padding:0;
+    border-radius:0;
+}

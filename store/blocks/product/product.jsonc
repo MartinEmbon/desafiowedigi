@@ -9,8 +9,8 @@
       "slider-layout#home",
       "flex-layout.row#about-us",
       "rich-text#gostatambem",      
-      "list-context.product-list#destaque"
-    
+      
+      "list-context.product-list#destaque"    
     ]
   },
   

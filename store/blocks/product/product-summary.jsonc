@@ -1,9 +1,11 @@
 {
 "product-summary.shelf#destaque": {            
     "children": [
-      "product-summary-name",      
       "product-summary-image",
-      "product-selling-price"  
+          "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price"            
     ]    
 }
 }

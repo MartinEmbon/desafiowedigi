@@ -20,8 +20,7 @@
   "rich-text#super": {
     "props": {
       "text": "Frete grátis a partir de R$170,00",
-      "blockClass":"freteIcon"
-      
+      "blockClass":"freteIcon"      
     }
   },
 
@@ -38,7 +37,6 @@
     }
   },
  
-
   "header-row#5-desktop": {
     "children": [
       "header-row#1-logo-desktop",            
@@ -50,6 +48,18 @@
     "props": {
       "blockClass": "main-topbar",
       "sticky": true
+    }
+  },
+  "login":{
+    "props":{
+      "showIconProfile":true,     
+      "hideIconLabel":true,
+      "blockClass":"loginBtn"
+    }
+  },
+  "search-bar":{
+    "props":{
+      "placeholder":"Faça sua busca"
     }
   },
   "header-row#1-logo-desktop":{
@@ -64,8 +74,7 @@
       "href": "/",
       "url": "https://www.wedigi.com.br/wp-content/themes/wedigi-theme/assets/images/logo-wedigi.png",
       //"width": "150",
-      "blockClass":"logo"
-      
+      "blockClass":"logo"      
     }
   },
 
@@ -91,8 +100,7 @@
       "header-row#1-super",
       "header-row#1-mobile",
       "header-row#1-searchmob"            
-    ]
-    
+    ]   
   },
 
   "header-row#1-super":{          
@@ -102,7 +110,7 @@
     "props": {
     "fullWidth": true,
     "sticky": true    
-  }    
+    }    
   },
 
   "header-row#1-mobile": {

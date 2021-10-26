@@ -4,6 +4,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#inst",
       "menu-item#fale",
       "menu-item#cupons",
       "menu-item#frete",
@@ -12,6 +13,24 @@
       "menu-item#tabela",
       "menu-item#trocas"
     ]
+  },
+  "rich-text#inst":{    
+    "props":{
+      "text":"Institucional",
+      "blockClass":"tituloFooter"
+    }
+  },
+  "rich-text#ajuda":{    
+    "props":{
+      "text":"Ajuda",
+      "blockClass":"tituloFooter"
+    }
+  },
+  "rich-text#atendimento":{    
+    "props":{
+      "text":"Atendimento",
+      "blockClass":"tituloFooter"
+    }
   },
   "menu-item#fale": {
     "props": {
@@ -124,6 +143,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#atendimento",
       "menu-item#telefone",
       "menu-item#whatsapp",
       "menu-item#email"
@@ -178,12 +198,12 @@
     }
   },
 
-
   "vtex.menu@2.x:menu#footer-ajuda": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#ajuda",
       "menu-item#perguntas",
       "menu-item#termos",
       "menu-item#politicas",
