@@ -13,7 +13,7 @@
     .quantitySelectorStepper{
         position:absolute;
         margin-top:1rem;
-        right:160px;
-        top:225px;
+        right:0;
+        top:210px;
     }  
 }

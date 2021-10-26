@@ -126,6 +126,7 @@
     }
   },
 
+  
   "header-row#1-searchmob":{
     "children":["search-bar"]
   },
@@ -133,7 +134,10 @@
   "drawer": {
     "children": [
       "menu#drawer"
-    ]
+    ],
+    "props":{
+      "isFullWidth":true
+    }
   },
 
   "menu#drawer": {

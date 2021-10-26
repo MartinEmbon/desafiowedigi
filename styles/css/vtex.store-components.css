@@ -223,7 +223,7 @@
     position:relative;
   }
 
-  .infoCardHeadline--stack::after {         
+  .infoCardHeadline--stack::after {             
     content:"";
     position:absolute;
     top:20px;
@@ -374,11 +374,16 @@
   .imageElement--consolas {
     margin-top: 15px;    
   }
-  
+  .infoCardHeadline--stack::after {             
+    content:"";
+    position:absolute;
+    top:20px;
+    left:90px;    
+  }
   .productBrand{
     position:absolute;
     left:2rem;
-    top:150px;    
+    top:220px;    
     padding-bottom: .5rem;
   }
 

@@ -2,6 +2,7 @@
     background-color: #06092b;   
     z-index:5000; 
     top:56px;   
+    width: 100%;
 }
 
 .closeIcon{
