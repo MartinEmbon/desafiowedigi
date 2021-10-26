@@ -2,7 +2,7 @@
 {
   "store.home": {
     "blocks": [      
-      "slider-layout#header",
+      "flex-layout.row#mainbanner",      
 //      "flex-layout.row#slider",
       "rich-text#destaque",
       "list-context.product-list#destaque",
@@ -19,6 +19,16 @@
       "list-context.product-list#promocoes"
     ]
   },
+  "flex-layout.row#mainbanner":{
+    "props":{
+      "blockClass":"mainBanner",
+      "fullWidth":true
+    },
+    "children":["slider-layout#header"]
+  },
+  
+  
+  
   "flex-layout.row#plataforma":{
     "props":{
       "blockClass":"filaplataforma"
@@ -33,10 +43,10 @@
 
   "info-card#game1": {
     "props": {
-      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "imageUrl": "https://www.muycomputer.com/wp-content/uploads/2018/12/Red-Dead-Redemprion-2-e1545182221632.jpg",
       "isFullModeStyle": true,
       "headline": "Red Dead Redemption II",
-      "subhead": "Ja disponivel para Playstation e PC.",
+      "subhead": "Ja disponível para Playstation e PC.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "#",
       "textPosition": "left",      
@@ -46,10 +56,10 @@
 
   "info-card#game2": {
     "props": {
-      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "imageUrl": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/offer/EGS_HITMAN3_IOInteractiveAS_S1-2560x1440-fe613ea24891cacef30e846e30a00982.jpg",
       "isFullModeStyle": true,
-      "headline": "No clima das Olimpíadas",
-      "subhead": "Os melhores jogos esportívos estão aqui.",
+      "headline": "Hitman 3",
+      "subhead": "Ja disponível para Playstation e PC.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "#",
       "textPosition": "left",      
@@ -59,10 +69,10 @@
 
   "info-card#game3": {
     "props": {
-      "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+      "imageUrl": "https://galaxianerd.com/wp-content/uploads/2020/11/Resident-Evil-Village.jpg",
       "isFullModeStyle": true,
-      "headline": "No clima das Olimpíadas",
-      "subhead": "Os melhores jogos esportívos estão aqui.",
+      "headline": "Resident Evil Village",
+      "subhead": "Ja disponível para Playstation e PC.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "#",
       "textPosition": "left",      
@@ -140,10 +150,10 @@
 
     "info-card#game4": {
       "props": {
-        "imageUrl": "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/04/5b60d0dc503b1.jpeg",
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/10/01/farcry6.jpg",
         "isFullModeStyle": true,
-        "headline": "Red Dead Redemption II",
-        "subhead": "Ja disponivel para Playstation e PC.",
+        "headline": "Vem aí em Outubro <br>Far Cry 6",
+        "subhead": "Para Xbox One, PS4 e PC.",
         "callToActionText": "Reservar",
         "callToActionUrl": "#",
         "textPosition": "right",      

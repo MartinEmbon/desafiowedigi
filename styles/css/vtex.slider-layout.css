@@ -54,9 +54,9 @@
 }
 
 .sliderLeftArrow{
-    position:absolute;
-    top:-40px;
-    left:970px;
+    position:relative;
+    top:-224px;
+    left:-30px;
     color:white;
     z-index:1000;    
 }
@@ -71,4 +71,24 @@
     height:35px;
     background:turquoise;
     z-index:-1000;
+}
+
+.paginationDotsContainer--carouselHeader{
+    position:absolute;
+    display:flex;
+    justify-content: flex-end;
+    bottom:5px;
+    right:10px;
+    
+}
+
+@media screen and (max-width:700px){
+    .slideChildrenContainer--carouselHeader{
+        margin:0;
+        padding:0;
+    }
+    .slide--carouselHeader{
+        margin:0;
+        padding:0;
+    }
 }

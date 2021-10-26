@@ -1,3 +1,19 @@
+.paragraph--freteIcon::before{        
+    background-image: url("assets/camiao2.png");
+    background-size:30px;
+    background-repeat: no-repeat;
+    color:white;        
+    width:40px;
+    height:40px;    
+    position:absolute;
+    left:-40px;
+    top:-3px;
+    content:"";
+}
+.paragraph--freteIcon{    
+    position:relative;
+}
+
 .paragraph--titulos{
     color:white;
     justify-content: left;            
@@ -5,7 +21,7 @@
     margin-left:1rem;
     font-weight: bold;     
     border-left:2px solid purple;
-    font-size: 25px;
+    font-size: 25px;    
 }
 .paragraph--titulosCentro{
     color:white;
@@ -65,19 +81,10 @@
     font-size: 12px; 
     margin-left:1rem;
     background-color: #06092b;      
+    
 }
 
-.paragraph--freteIcon::before{
-    background-image: url("assets/camiao2.png");
-    background-size:30px 30px;
-    color:white;
-    width:30px;
-    height:30px;    
-    position:absolute;
-    left:-40px;
-    top:13px;
-    content:"";
-}
+
 .container--tituloFooter{
     background:transparent;
     margin:0;

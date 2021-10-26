@@ -117,6 +117,7 @@
     "children": [
       "drawer",
       "logo#mobile",          
+      "login",
       "minicart"
     ],
     "props": {

@@ -1,4 +1,9 @@
 .drawer{
     background-color: #06092b;   
-    z-index:5000;    
+    z-index:5000; 
+    top:56px;   
+}
+
+.closeIcon{
+    color:white;    
 }

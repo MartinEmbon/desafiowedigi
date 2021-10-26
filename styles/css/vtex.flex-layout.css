@@ -48,6 +48,13 @@
 .flexRowContent--filagame4{
     padding: 4rem 0;
 }
+.flexRowContent--mainBanner{
+    padding: .75rem 0;        
+    margin:0;
+    
+    background-color: #06092b;     
+    
+}
 .flexRowContent--filaplataforma{
     background-color: #06092b;     
 }

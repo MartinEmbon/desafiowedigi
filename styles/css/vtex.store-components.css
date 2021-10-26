@@ -1,12 +1,14 @@
 .container{
   background-color: #06092b;   
   color:white;
-  width:100%;  
+  width:100%;    
 }
 
+
+/*Search Bar*/
 .searchBarContainer :global(.vtex-input-prefix__group){
   background-color: transparent;
-  border:1px solid purple;
+  border:1px solid #1421b4;
 }
 
 .searchBarContainer :global(.vtex-input__suffix){
@@ -16,6 +18,7 @@
 .searchBarContainer :global(.vtex-store-components-3-x-searchBarIcon){
   color:white;
 }
+/*Search Bar*/
 
 .logoImage--logo{    
   width:300px;
@@ -29,25 +32,40 @@
   margin-right: 1rem;
 }
 
-
+/*Main Banner*/
 .infoCardContainer--header{
   width:100%;
   height: 500px;
   margin:auto;
-  position:relative;   
+  position:relative;     
+}
+
+.infoCardHeadline--header{
+  color:white;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: .5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+  line-height: 15px;
 }
 
 .infoCardTextContainer--header{
   width:80%;
   position:absolute;
-  bottom:10px;  
-  color:white;  
+  bottom:10px;    
 }
+
+.infoCardSubhead--header{
+  width:90%;
+  color:white;
+  font-weight:bold;
+}
+
 
 .infoCardImage--header{
   width:100px;
 }
-
+/*Main Banner*/
 
 .installmentsPrice{
   color:grey;
@@ -78,13 +96,6 @@
     height: 400px;  
 }
 
-
-.infoCardTextContainer{
-  width:80%;
-  color:white;
-}
-
-
 .infoCardTextContainer--acao-footer{
   width:50%;
   margin-left:1rem;
@@ -98,11 +109,12 @@
   margin-bottom: 0.5rem;
 }
 
-.infoCardSubhead{
-  width:90%;
+.infoCardTextContainer{
+  width:80%;
   color:white;
-  font-weight:bold;
 }
+
+
 
 .infoCardCallActionContainer {
     color: white;
@@ -111,8 +123,14 @@
 }
   
   
-.infoCardHeadline{  
+
+/*Info cards nostalgia e olimpiadas*/
+.infoCardHeadline--nostalgia,
+.infoCardHeadline--olimpiadas{  
   width:80%;
+  font-weight: bolder;
+  letter-spacing: .5px;
+  font-family:Arial, Helvetica, sans-serif;
   color:white;
   font-weight:bold;
   font-family: serif;
@@ -120,7 +138,12 @@
   position:relative;
 }
 
-/*Info cards nostalgia e olimpiadas*/
+.infoCardSubhead--nostalgia,
+.infoCardSubhead--olimpiadas{
+  width:90%;
+  color:white;
+  font-weight:bold;
+}
 .infoCardContainer--nostalgia,
 .infoCardContainer--olimpiadas{
   height:400px;
@@ -128,7 +151,7 @@
   padding: 0;
   border-radius:5px;
   background-color: #06092b;   
-  position:relative; 
+  position:relative;   
   margin-left:.5rem;  
 }
 
@@ -164,7 +187,7 @@
   border:0;
   padding:2.5rem;  
   width:20px;
-  border-bottom:3px solid #4839ff;
+  border-bottom:5px solid #4839ff;  
 }
 
 /*Info cards nostalgia e olimpiadas*/
@@ -184,28 +207,56 @@
     background-color: #06092b;        
     position:relative;
     border-radius:5px;
+    outline:none;
+  }
+  .infoCardSubhead--stack{
+    width:90%;
+    color:white;
+    font-weight:bold;
+  }
+  .infoCardHeadline--stack{
+    color:#06092b;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
   }
 
   .infoCardHeadline--stack::after {         
     content:"";
     position:absolute;
-    bottom:-5px;
-    right:280px;
+    top:20px;
+    left:0;
     border:0;
-    padding:2.5rem;  
-    width:20px;
-    border-bottom:3px solid #4839ff;
+    padding:1rem;  
+    width:3px;
+    border-bottom:4px solid #4839ff;
   }
 /*Info card Game 4*/    
 
 
-/*Info card Categorias*/   
+/*Info card Categorias HEADER*/   
 .infoCardContainer--acao {        
   display:flex;
   justify-content: space-between;
   margin: 0;  
   padding:0;  
   background-color: #1db8fb;       
+}
+
+.infoCardSubhead--acao{
+  width:90%;
+  color:white;
+  font-weight:bold;
+}
+.infoCardHeadline--acao{
+  color:white;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: .5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:relative;
 }
 
 .infoCardImage--acao{    
@@ -224,33 +275,27 @@
   bottom:-5px;
   left:0;
   border:0;
-  padding:2.5rem;  
+  padding:.5rem;  
   width:20px;
   border-bottom:3px solid #4839ff;
 }
-/*Info card Categorias*/   
+/*Info card Categorias HEADER*/   
 
+
+/*Info card Categorias FOOTER*/   
 .infoCardContainer--acao-footer {    
     height:500px;    
     padding: 1rem;
     padding-bottom: 3rem; 
     margin:0;
-    background-color: #06092b;      
+    background-color: #06092b;             
   }
-
-.infoCardContainer--descricaoProd {    
-    width:90%;
-    margin:0;
-    padding: 1rem;     
-    background-color: #06092b;       
-}
 
   .infoCardImage--acao-footer{
     height:fit-content;
     width:500px;
   }
   
-
   .infoCardImage--acao-footer{
     height:400px;
     object-position: center;
@@ -259,7 +304,38 @@
     background-size: cover; 
     border-radius:5px;
   }
-  
+
+  .infoCardSubhead--acao-footer{
+    width:90%;
+    color:white;
+    font-weight:bold;
+  }
+  .infoCardHeadline--acao-footer{
+    color:white;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+  }
+  .infoCardHeadline--acao-footer::after {         
+    content:"";
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    border:0;
+    padding:.5rem;  
+    width:20px;
+    border-bottom:3px solid #4839ff;
+  }
+/*Info card Categorias FOOTER*/   
+
+.infoCardContainer--descricaoProd {    
+    width:90%;
+    margin:0;
+    padding: 1rem;     
+    background-color: #06092b;       
+}
 
   .productImage{
     width:90%;        
@@ -295,6 +371,10 @@
   }
   
 @media screen and (max-width:700px){
+  .imageElement--consolas {
+    margin-top: 15px;    
+  }
+  
   .productBrand{
     position:absolute;
     left:2rem;
@@ -302,7 +382,26 @@
     padding-bottom: .5rem;
   }
 
+  .infoCardContainer--header{
+    width:100%;
+    height: 500px;
+    margin:auto;
+    position:relative;     
+  }
   
+  .infoCardHeadline--header{    
+    font-size: 2rem;
+    width: 100%;    
+  }
+  
+  .infoCardTextContainer--header{
+    width:100%;    
+  }
+  
+  .infoCardSubhead--header{
+    width:100%;    
+  }
+      
   .infoCardContainer--acao{      
       height:400px;
       margin: 0;    
@@ -310,27 +409,26 @@
       position:relative;
       z-index: 1000;
   }
-  .infoCardContainer{          
-    height:400px;
-    margin: 2rem auto;
-    padding: 0;    
-    background-color: #06092b;  
-  }
+  
   .infoCardTextContainer--acao{      
     width:100%;
     color:white;
     position:relative;      
   }
+
+  
   .infoCardTextContainer--acao-footer{      
     width:100%;
     color:white;
     position:relative;      
+    margin:auto;
   }
   .infoCardImage--acao{
     position:absolute;
     top:0;
-    right:0;
+    right:0;    
     z-index:-99;
+    height:100%;
   }
   .infoCardContainer--acao-footer{      
     height:400px;
@@ -340,22 +438,22 @@
   }
 
   .infoCardImage--acao-footer{
+    display:none;
     position:absolute;
     top:0;
     right:0;
     z-index:-99;
   }
-
   .infoCardHeadline--acao-footer{
     color:white;
-    font-size: 15px;
+    font-size: 25px;
     width: 500px;
     padding-bottom: .5rem;
     }
   .infoCardSubhead--acao-footer{
     color:white;
     font-size: 10px;
-    width: 400px;
+    width: 350px;
     line-height: 20px;  
   }
 }
